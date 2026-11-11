@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/*Navigacija*/
+
+header {
+    background-color: #030d22;
+    padding: 30px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #00e5ff;
+}
+
+nav a {
+    color: rgb(12, 160, 29);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00e5ff;
+}
+
+/* Početna */
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.hero h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    color: #00e5ff;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00e5ff;
+}
+
+/* Sekcija */
+
+section:not(.hero) {
+    padding: 100px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color:#00e5ff;
+    margin-bottom: 20px;
+}
+
+/* Podnožje */
+
+footer {
+    background-color: #111c32;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
